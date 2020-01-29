@@ -1,0 +1,112 @@
+.navbar-light .navbar-nav .nav-link,.navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #f97300;
+}
+.header{
+	background-image: url('images/gold1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-shadow: 5px 5px 5px white;
+	font-weight: 600;
+}
+.description{
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	padding: 2em;
+}
+.description h1{
+	color: black;
+}
+.description p{
+	color: black;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button{
+ 	border:1px  solid #F97300;
+	background:darkblue;
+	color:#fff;
+}
+
+.portfolio{
+ margin: 4em 0;
+    position: relative; 
+}
+.portfolio h1{
+ color:#F97300;
+ margin: 2em; 
+}
+.portfolio img{
+  height: 13rem;
+  width: 100%;
+  margin: 1em;
+}
+
+
+.about,.blog,.team,.mechanics{
+	margin: 1em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color: #f97300;
+	margin: 1em;
+
+}
+.about img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+.blog h1,.team h1,.mechanics h1{
+ 	color:#F97300;
+ 	margin: 1em; 
+}
+.blog img{
+	height: 360px;
+}
+.blog p{
+	height: 100px;
+	white-space: wrap;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 5px;
+}
+.blog p:hover {
+  	height: auto;
+  	cursor: pointer;
+}
+.contact-form{
+	margin: 6em 0;
+	position: relative;
+}
+.contact-form h1{
+	padding:2em 1px;
+ 	color: #F97300;
+}
+.end{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+}
+.end img{	
+	border: 5px solid gold;
+	width: 450px;
+	height: 260px;
+	margin-bottom: 2em; 
+}
+footer{
+	background-color: #ffff99;
+	border-top: 3px solid black;
+}
+footer p{
+	padding: 3em;
+	word-spacing: 0.2em;
+}
